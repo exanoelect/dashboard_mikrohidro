@@ -12,7 +12,7 @@
 //         $koneksi2 = mysqli_connect("localhost", "root", "", "pltmh_bandung");
 //     }
 // }
-$koneksi = mysqli_connect("127.0.0.1", "komatsu", "komatsu12345XXX", "pltmh_kemuning");
+$koneksi = mysqli_connect("127.0.0.1", "user", "password", "dbname");
 function query($query) 
 {
     global $koneksi;
